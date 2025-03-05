@@ -35,5 +35,4 @@ jobs:
           docker push ${{ secrets.DOCKER_USERNAME }}/training:latest
 
 
-        
-          docker push ${{ secrets.DOCKER_USERNAME }}/hello-world:latest
+  
